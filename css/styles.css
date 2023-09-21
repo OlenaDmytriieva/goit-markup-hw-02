@@ -48,6 +48,11 @@ a {
         letter-spacing: 0.02em;
 }
 
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+        color: #404BBF;
+}
+
 .address {}
 
 .address-list {}
@@ -57,9 +62,13 @@ a {
 .address-list-link {
         color: #434455;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+        color: #404BBF;
 }
 
 .section-page-title {
@@ -85,6 +94,10 @@ a {
         cursor: pointer;
 }
 
+.button-order:hover {
+        background: #404BBF;
+}
+
 .section-about {}
 
 .section-about-title {}
@@ -103,7 +116,6 @@ a {
 
 .section-about-text {
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -138,7 +150,6 @@ a {
 .section-team-text {
         text-align: center;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -171,7 +182,6 @@ a {
 
 .section-portfolio-text {
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -183,7 +193,6 @@ a {
 .bottom-text {
         color: #F4F4FD;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
