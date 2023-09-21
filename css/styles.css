@@ -12,29 +12,27 @@ a {
     text-decoration: none;
 }
 
-.logo-iris {
-        color: #4D5AE5;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1,17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo-navy {
-        color: #2E2F42;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+        color: #2E2F42;  
+}
+
+.logo-cloud {
+    color: #F4F4FD;
 }
 
 .navigation {}
 
-.logo {}
+
 
 .navigation-list {}
 
@@ -64,6 +62,7 @@ a {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        font-style: normal;
 }
 
 .address-list-link:hover,
@@ -94,7 +93,8 @@ a {
         cursor: pointer;
 }
 
-.button-order:hover {
+.button-order:hover,
+.button-order:focus {
         background: #404BBF;
 }
 
@@ -120,7 +120,9 @@ a {
         letter-spacing: 0.02em;
 }
 
-.section-team {}
+.section-team {
+    background-color: #F4F4FD
+}
 
 .section-team-title {
     color: #2E2F42;
@@ -134,7 +136,9 @@ a {
 
 .section-team-list {}
 
-.section-team-item {}
+.section-team-item {
+    background-color: #FFFFFF;
+}
 
 .section-team-image {}
 
@@ -197,12 +201,3 @@ a {
         letter-spacing: 0.02em;
 }
 
-.logo-cloud {
-        color: #F4F4FD;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-}
